@@ -21,7 +21,7 @@ const SITE = {
 const PAGES = [
   ["Home", "index.html"],
   ["Portfolio", "portfolio.html"],
-  ["Packages", "packages.html"],
+  ["Our services", "services.html"],
   ["Our Approach", "approach.html"],
   ["Contact", "contact.html"],
 ];
@@ -176,7 +176,7 @@ function initCarousel() {
   });
 }
 
-/* English / Hebrew toggle on the Packages page */
+/* English / Hebrew toggle on the Our services page */
 function initLang() {
   const buttons = document.querySelectorAll(".lang button");
   if (!buttons.length) return;
